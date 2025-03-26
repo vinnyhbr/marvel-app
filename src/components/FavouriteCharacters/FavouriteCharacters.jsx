@@ -49,12 +49,12 @@ const FavouriteCharacters = () => {
             <div className={s.charOptions}>
               <NavLink to={`/character/${char.name}/comics`} className={s.link}>
                 <span onClick={() => handleCharacterComicsClick(char.id)}>
-                  Character comics ↗
+                  Quadrinhos do personagem ↗
                 </span>
               </NavLink>
               <NavLink to={`/character/${char.id}/events`} className={s.link}>
                 <span onClick={() => handleCharacterEventsClick(char.id)}>
-                  Character events ↗
+                  Eventos do personagem ↗
                 </span>
               </NavLink>
             </div>

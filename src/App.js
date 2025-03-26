@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-// import md5 from "js-md5";
+//import md5 from "js-md5";
 import Nav from "./components/Nav/Nav.jsx";
 import Characters from "./components/Characters/Characters.jsx";
 import CharacterComics from "./components/CharacterComics/CharacterComics.jsx";
@@ -23,8 +23,6 @@ function App() {
         <Route path="/" element={<Characters />} />
         <Route path="/comics" element={<Comics />} />
         <Route path="/events" element={<Events />} />
-        {/* <Route path="/series" element={<Series />} /> */}
-        {/* <Route path="/stories" element={<Stories />} /> */}
         <Route
           path="/characters/favourites"
           element={<FavouriteCharacters />}
